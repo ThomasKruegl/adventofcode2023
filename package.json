@@ -1,0 +1,31 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node",
+    "build": "tsc && copyfiles -Vau 1 src/**/*.txt dist",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasKruegl/adventofcode2023.git"
+  },
+  "keywords": [
+    "adventofcode"
+  ],
+  "author": "Thomas Krügl",
+  "license": "ISC",
+  "homepage": "https://github.com/ThomasKruegl/adventofcode2023#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "copyfiles": "^2.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}
